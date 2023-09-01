@@ -13,6 +13,7 @@ npm install typescript --save-dev
 ## Formato do tsconfig.json recomendado:
 
 ```{
+{
   "compilerOptions": {
     "target": "es2016",
     "module": "commonjs",
@@ -24,3 +25,10 @@ npm install typescript --save-dev
     "skipLibCheck": true
   }
 }
+```
+
+## Como compilar o projeto
+
+```npx tsc``` - Transforma typscript -> javascript :
+
+```node ./dist/nome.js``` - roda o código que anteriormente foi passado para javascript.
